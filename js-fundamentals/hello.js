@@ -1,11 +1,12 @@
+//different between console.log and retrun
+
 const sayHello = function(name){
   console.log("Hello, " + name);
 }
 sayHello("xing");
-sayHello("wu");
-/*
-const countNum = function(num){
-  return num * num;
+
+const returnSayhello = function(name){
+  return "Hello, " + name;
 }
-console.log(countNum(5));
-*/
+const greeting = returnSayhello("wu");
+console.log(greeting);
